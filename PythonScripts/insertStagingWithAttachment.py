@@ -9,9 +9,9 @@ from datetime import datetime, timezone
 # =========================================================
 # SALESFORCE CONFIG
 # =========================================================
-SF_USERNAME = 'devansh.garg@mirketa.com.newehrdev'
-SF_PASSWORD = 'Sanskar@acoe#123456'
-SF_SECURITY_TOKEN = 'uNm1FJ3M3lXMxc0hesMNLsgm'
+SF_USERNAME = 'ghanshyam.bhatt@mirketa.com.ehruat' #'devansh.garg@mirketa.com.newehrdev'
+SF_PASSWORD = 'Mirketa@acoe@12345#'   #'Sanskar@acoe#123456'
+SF_SECURITY_TOKEN = 'IJ4O8ARbu08OO6B9IvvrElD5' #'uNm1FJ3M3lXMxc0hesMNLsgm'
 SF_DOMAIN = 'test'   # remove for prod
 
 # =========================================================
