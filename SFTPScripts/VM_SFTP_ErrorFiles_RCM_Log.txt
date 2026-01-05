@@ -1,0 +1,20 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20250922145755
+Username: acoedataloader\acoenocdataadmin
+RunAs User: acoedataloader\acoenocdataadmin
+Configuration Name: 
+Machine: acoedataloader (Microsoft Windows NT 10.0.17763.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -Command if((Get-ExecutionPolicy ) -ne 'AllSigned') { Set-ExecutionPolicy -Scope Process Bypass }; & 'C:\Scripts\SendErrorFilesToSFTP.ps1'
+Process ID: 1416
+PSVersion: 5.1.17763.7786
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.17763.7786
+BuildVersion: 10.0.17763.7786
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Scripts\VM_SFTP_ErrorFiles_Log.txt
+Connecting to SFTP server...

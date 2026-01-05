@@ -1,0 +1,51 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20251216094044
+Username: acoedataloader\acoenocdataadmin
+RunAs User: acoedataloader\acoenocdataadmin
+Configuration Name: 
+Machine: acoedataloader (Microsoft Windows NT 10.0.17763.0)
+Host Application: powershell.exe -ExecutionPolicy Bypass -File C:\Scripts\SendFilesToSFTP.ps1
+Process ID: 9896
+PSVersion: 5.1.17763.8146
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.17763.8146
+BuildVersion: 10.0.17763.8146
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Scripts\VM_SFTP_Log.txt
+Connecting to SFTP...
+Connected successfully to SFTP.
+Checking for local subfolders in: C:/RCMFiles/OutboundFiles
+Found 2 local subfolder(s)
+Processing local subfolder: 270
+Local path: C:\RCMFiles\OutboundFiles\270
+Target remote path: /acoe/rcm/edi/outbound/270
+Remote subfolder already exists: /acoe/rcm/edi/outbound/270
+Found 2 total file(s) in local folder
+Looking for files modified/created after: 12/15/2025 09:40:46
+No files modified/created in the last 24 hours in C:\RCMFiles\OutboundFiles\270
+All files in folder with timestamps:
+  - 271 EDIv1.txt (Modified: 07/08/2025 07:46:39, Created: 07/08/2025 07:46:39)
+  - 271 EDIv2.txt (Modified: 07/08/2025 07:46:40, Created: 07/08/2025 07:46:40)
+Processing local subfolder: 837
+Local path: C:\RCMFiles\OutboundFiles\837
+Target remote path: /acoe/rcm/edi/outbound/837
+Remote subfolder already exists: /acoe/rcm/edi/outbound/837
+Found 3 total file(s) in local folder
+Looking for files modified/created after: 12/15/2025 09:40:46
+No files modified/created in the last 24 hours in C:\RCMFiles\OutboundFiles\837
+All files in folder with timestamps:
+  - 835I EDIv1.txt (Modified: 07/08/2025 07:46:41, Created: 07/08/2025 07:47:47)
+  - 835I EDIv2.txt (Modified: 07/08/2025 07:46:42, Created: 07/08/2025 07:47:47)
+  - 835I EDIv3.txt (Modified: 07/08/2025 07:46:42, Created: 07/08/2025 07:47:47)
+True
+SFTP session closed.
+Upload script execution completed.
+**********************
+Windows PowerShell transcript end
+End time: 20251216094046
+**********************

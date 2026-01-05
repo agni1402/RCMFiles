@@ -1,0 +1,57 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20251216093825
+Username: acoedataloader\acoenocdataadmin
+RunAs User: acoedataloader\acoenocdataadmin
+Configuration Name: 
+Machine: acoedataloader (Microsoft Windows NT 10.0.17763.0)
+Host Application: powershell.exe -ExecutionPolicy Bypass -File C:\Scripts\FetchFile.ps1
+Process ID: 7508
+PSVersion: 5.1.17763.8146
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.17763.8146
+BuildVersion: 10.0.17763.8146
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Scripts\SFTP_VM_Log.txt
+Connecting to SFTP...
+Connected successfully to SFTP.
+Checking for subfolders in: /acoe/rcm/edi/inbound
+Found 2 subfolder(s)
+Processing subfolder: 271
+Remote path: /acoe/rcm/edi/inbound/271
+Found 5 file(s) in /acoe/rcm/edi/inbound/271
+Looking for files modified after: 12/15/2025 09:38:28
+No files modified in the last 24 hours in /acoe/rcm/edi/inbound/271
+All files in folder with timestamps:
+  - 271 EDIv1.txt (Modified: 07/08/2025 07:15:32)
+  - 271 EDIv2.txt (Modified: 07/08/2025 07:15:39)
+  - 271 EDIv3.txt (Modified: 07/08/2025 07:15:47)
+  - 271 EDIv4.txt (Modified: 07/08/2025 07:17:17)
+  - 271 EDIv5.txt (Modified: 07/08/2025 07:17:24)
+Processing subfolder: 835
+Remote path: /acoe/rcm/edi/inbound/835
+Found 10 file(s) in /acoe/rcm/edi/inbound/835
+Looking for files modified after: 12/15/2025 09:38:28
+No files modified in the last 24 hours in /acoe/rcm/edi/inbound/835
+All files in folder with timestamps:
+  - 835I EDIv1.txt (Modified: 07/08/2025 07:17:54)
+  - 835I EDIv2.txt (Modified: 07/08/2025 07:18:02)
+  - 835I EDIv3.txt (Modified: 07/08/2025 07:18:09)
+  - 835I EDIv4.txt (Modified: 07/07/2025 07:19:16)
+  - 835I EDIv5.txt (Modified: 06/30/2025 10:06:36)
+  - 835P EDIv1.txt (Modified: 07/08/2025 07:18:32)
+  - 835P EDIv2.txt (Modified: 07/08/2025 07:18:40)
+  - 835P EDIv3.txt (Modified: 06/30/2025 10:06:07)
+  - 835P EDIv4.txt (Modified: 07/07/2025 07:18:56)
+  - 835P EDIv5.txt (Modified: 06/30/2025 10:06:36)
+True
+SFTP session closed.
+Script execution completed.
+**********************
+Windows PowerShell transcript end
+End time: 20251216093828
+**********************
